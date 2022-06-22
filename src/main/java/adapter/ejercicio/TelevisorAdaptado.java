@@ -11,13 +11,12 @@ public class TelevisorAdaptado implements IArtefactos{
 
     @Override
     public void precio() {
-        System.out.println("Adaptando Televisor a la familia de Artefactos Electronicos");
         this.televisor.costo();
     }
 
     @Override
     public void tiempDeVida() {
-        System.out.println("Adaptando Televisor a la familia de Artefactos Electronicos");
+        this.televisor.setTiempoDeGarantia(televisor.getTiempoDeGarantia()+1);
         this.televisor.tiempoDeGarantia();
 
     }

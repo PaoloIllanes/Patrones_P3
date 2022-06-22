@@ -1,7 +1,5 @@
 package visitor.ejercicio;
 
-import visitor.ejemplos.*;
-
 public class Client {
 
     public static void main(String []sss){
